@@ -2,6 +2,8 @@
 import Company from "../components/Company.astro";
 import Footer from "../components/Footer.astro";
 import Header from "../components/Header.astro";
+import { siteConfig } from "../config";
+import "../styles/global.css";
 ---
 
 <html lang="en">
@@ -10,13 +12,20 @@ import Header from "../components/Header.astro";
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width" />
     <meta name="generator" content={Astro.generator} />
-    <title>Company</title>
+    <meta name="description" content={siteConfig.aboutMe} />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <title>{siteConfig.name} - Company</title>
   </head>
   <body>
     <Header />
-    <main style="display: none;">
-    </main>
-    <Company />
+    <section>
+      <Company />
+    </section>
     <Footer />
   </body>
 </html>
