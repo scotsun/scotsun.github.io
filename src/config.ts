@@ -1,13 +1,13 @@
 export const siteConfig = {
-  name: "Ryan Fitzgerald",
-  title: "Senior Software Engineer",
-  description: "Portfolio website of Ryan Fitzgerald",
+  name: "Scott Sun",
+  title: "PhD Student at Duke University",
+  description: "Portfolio website of Scott Sun",
   accentColor: "#1d4ed8",
   social: {
     email: "your-email@example.com",
     linkedin: "https://linkedin.com/in/yourprofile",
     twitter: "https://x.com/rfitzio",
-    github: "https://github.com/RyanFitzgerald",
+    github: "https://github.com/scotsun",
   },
   aboutMe:
     "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem quos asperiores nihil consequatur tempore cupiditate architecto natus commodi corrupti quas quasi facere est, dignissimos odit nam veniam sapiente ut, vitae eligendi ipsum dolor, nostrum ullam impedit! Corrupti ratione mollitia temporibus necessitatibus, consectetur reiciendis recusandae id, dolorum quaerat, vero pariatur. Ratione!",
@@ -37,7 +37,7 @@ export const siteConfig = {
   ],
   experience: [
     {
-      company: "Tech Company",
+      company: "Tech Company XYZ",
       title: "Senior Software Engineer",
       dateRange: "Jan 2022 - Present",
       bullets: [
@@ -69,23 +69,20 @@ export const siteConfig = {
   ],
   education: [
     {
-      school: "University Name",
-      degree: "Bachelor of Science in Computer Science",
-      dateRange: "2014 - 2018",
+      school: "Duke University",
+      degree: "{MS, PhD} in Biostatistics",
+      dateRange: "2021 - Present",
       achievements: [
-        "Graduated Magna Cum Laude with 3.8 GPA",
-        "Dean's List all semesters",
-        "President of Computer Science Club",
+        "AI Health Fellow",
       ],
     },
     {
-      school: "Online Platform",
-      degree: "Full Stack Development Certificate",
-      dateRange: "2019",
+      school: "Rose-Hulman Institute of Technology",
+      degree: "BS in Mathematics",
+      dateRange: "2017 - 2021",
       achievements: [
-        "Completed 500+ hours of coursework",
-        "Built 10+ portfolio projects",
-        "Specialized in React and Node.js",
+        "Dean's List all semesters",
+        "Departmental Award",
       ],
     },
   ],
