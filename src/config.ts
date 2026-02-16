@@ -2,6 +2,14 @@ export const siteConfig = {
   name: "Scott Sun",
   title: "PhD Student at Duke University",
   description: "Portfolio website of Scott Sun",
+  companyDescription: "This is a placeholder for the company description.",
+  navLinks: [
+    { name: "About", href: "#about" },
+    { name: "Experience", href: "#experience" },
+    { name: "Projects", href: "#projects" },
+    { name: "Education", href: "#education" },
+    { name: "Company", href: "/company" },
+  ],
   accentColor: "#1d4ed8",
   social: {
     email: "your-email@example.com",
