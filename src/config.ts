@@ -6,10 +6,10 @@ export const siteConfig = {
   // company index
   companyName: "AutoHealth",
   companySlogan: "Empowering Health with AI",
-  companyDescription: "This is a placeholder for the company description.",
+  companyDescription: "AutoHealth is transforming healthcare with AI-powered✨ solutions and MaaS (Model-as-a-Service) capabilities that improve patient care, streamline clinical workflows, and deliver personalized insights to enhance outcomes for both patients and providers.",
   companySocial: {
     email: "your-email@example.com",
-    linkedin: "https://linkedin.com/in/yourprofile",
+    linkedin: "https://www.linkedin.com/in/minghui-scott-sun/",
     twitter: "https://x.com/rfitzio",
     github: "https://github.com/scotsun",
   },
