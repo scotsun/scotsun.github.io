@@ -19,28 +19,86 @@ import { siteConfig } from "../config";
       </div>
 
       <div class="lg:col-span-8 space-y-8">
-        {
-          siteConfig.companyServices?.length ? (
-            <div class="space-y-6">
-              {siteConfig.companyServices.map((service) => (
-                <div class="space-y-2">
-                  <h3 class="text-xl sm:text-2xl font-bold text-gray-900">
-                    {service.name}
-                  </h3>
-                  {service.description ? (
-                    <p class="text-base sm:text-lg md:text-xl leading-relaxed text-gray-600">
-                      {service.description}
-                    </p>
-                  ) : null}
-                </div>
-              ))}
-            </div>
-          ) : (
-            <p class="text-lg sm:text-xl md:text-2xl leading-relaxed text-gray-600">
-              Add services in <span class="font-semibold text-gray-900">siteConfig.companyServices</span>.
+        <div class="space-y-8">
+          <div class="space-y-3">
+            <h3 class="text-xl sm:text-2xl font-bold text-gray-900">
+              A. Medical M/SaaS for Patients and Clinicians
+            </h3>
+            <p class="text-base sm:text-lg md:text-xl leading-relaxed text-gray-600">
+              Cloud-based AI tools that integrate into existing healthcare systems:
             </p>
-          )
-        }
+
+            <ul class="list-disc pl-5 text-base sm:text-lg md:text-xl leading-relaxed text-gray-600 space-y-4">
+              <li>
+                <div class="space-y-2">
+                  <p>
+                    <span class="font-semibold text-gray-900">Medical Coding Copilot</span>
+                  </p>
+                  <ul class="list-disc pl-5 space-y-1">
+                    <li>Automates and assists with clinical coding</li>
+                    <li>Reduces administrative burden for clinicians</li>
+                    <li>
+                      Improves accuracy and consistency in billing and documentation
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li>
+                <div class="space-y-2">
+                  <p>
+                    <span class="font-semibold text-gray-900">Patient Representation &amp; Risk Highlighting System</span>
+                  </p>
+                  <ul class="list-disc pl-5 space-y-1">
+                    <li>Generates interpretable patient embeddings from EHR data</li>
+                    <li>Identifies and highlights high-risk medical events</li>
+                    <li>Supports downstream clinical decision support systems</li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <div class="space-y-3">
+            <h3 class="text-xl sm:text-2xl font-bold text-gray-900">
+              B. Medical Imaging AI
+            </h3>
+            <ul class="list-disc pl-5 text-base sm:text-lg md:text-xl leading-relaxed text-gray-600 space-y-4">
+              <li>
+                <div class="space-y-2">
+                  <p>
+                    <span class="font-semibold text-gray-900">CT Scan Segmentation System</span>
+                  </p>
+                  <ul class="list-disc pl-5 space-y-1">
+                    <li>Automated delineation of organs, lesions, and abnormalities</li>
+                    <li>
+                      Supports radiologists with faster and more precise interpretations
+                    </li>
+                    <li>
+                      Potential applications in oncology, cardiology, and neurology
+                    </li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <div class="space-y-3">
+            <h3 class="text-xl sm:text-2xl font-bold text-gray-900">
+              C. Policy &amp; Ethics Consulting
+            </h3>
+            <p class="text-base sm:text-lg md:text-xl leading-relaxed text-gray-600">
+              AutoHealth advises hospitals, research institutions, and AI companies on:
+            </p>
+            <ul class="list-disc pl-5 text-base sm:text-lg md:text-xl leading-relaxed text-gray-600 space-y-2">
+              <li>Designing fairness evaluation frameworks</li>
+              <li>Assessing bias in medical AI models</li>
+              <li>
+                Creating transparent documentation and audit trails for regulatory
+                compliance
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
     </div>
   </div>

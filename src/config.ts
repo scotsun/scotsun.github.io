@@ -28,27 +28,27 @@ export const siteConfig = {
     {
       name: "Scott Sun",
       title: "Founder & Tech Lead",
-      bio: "Building patient-first, fair, and transparent AI for healthcare.",
+      bio: "Scott Sun is the Tech lead at AutoHealth. His works on building foundation models for Electronic Health Records (EHRs) and event stream data, with a focus on incorporating domain-specific inductive biases to improve efficiency, robustness, and real-world performance. He also works on variational methods and contrastive learning for multimodal and longitudinal representations. In parallel, he builds scalable ML infrastructure and is interested in modern MLOps tools such as Dagster, dbt, and MLflow.",
     },
     {
       name: "Lorraine Lin",
       title: "Research Scientist",
-      bio: "[placeholder]",
+      bio: "Lorraine is a Health AI and Biostatistics researcher with interests in statistical machine learning, longitudinal data analysis, and AI for biomedical research. Her current work focuses on clinical outcome prediction using longitudinal cytometry data, combining representation learning with Gaussian Process modeling to improve robustness and interpretability in small-cohort settings. She has also worked on multimodal learning and applied AI projects, including hyperspectral image modeling for smart agriculture, tensor-based methods for infrared target detection, and domain-specific large language model development. Lorraine is passionate about applying data-driven and computational approaches to real-world scientific and healthcare challenges.",
     },
     {
       name: "Rishi Kedia",
       title: "MLE",
-      bio: "[placeholder]",
+      bio: "Rishi Kedia is a Machine Learning Engineer at AutoHealth. His work focuses on computer vision and biomedical imaging, particularly medical image segmentation and clinical ML systems to support pathologists and radiologists. He is interested in building scalable, real-world AI solutions for healthcare.",
     },
     {
       name: "Eloise Lee",
       title: "Biostatistician III",
-      bio: "[placeholder]",
+      bio: "Eloise Lee is a Biostatistician III at AutoHealth, where they ensure AI systems built on health records and medical imaging are safe, unbiased, and clinically valid. Specializing in causal inference and risk prediction, Eloise bridges the gap between complex data and actionable clinical insights. They work alongside engineers and clinicians to deploy transparent, regulatory-grade AI that prioritizes patient safety and ethical standards.",
     },
     {
       name: "Leo Liang",
       title: "Research Scientist",
-      bio: "[placeholder]",
+      bio: "Leo Liang is a Health AI and Biostatistics researcher. His work focuses on foundation for single-cell/multimodal omics data, with interests in representation learning for longitudinal and multimodal signals, variational methods, and contrastive learning. He also works on causal inference and reproducible ML pipelines, and is interested in scalable infrastructure for research-to-production workflows, including modern MLOps and agentic tooling.",
     },
   ],
   companySocial: {
