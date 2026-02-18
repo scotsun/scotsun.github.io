@@ -1,7 +1,7 @@
 ---
 import Company from "../components/Company.astro";
 import CompanyFooter from "../components/CompanyFooter.astro";
-import Header from "../components/Header.astro";
+import CompanyHeader from "../components/CompanyHeader.astro";
 import { siteConfig } from "../config";
 import "../styles/global.css";
 ---
@@ -22,7 +22,7 @@ import "../styles/global.css";
     <title>{siteConfig.name} - Company</title>
   </head>
   <body>
-    <Header />
+    <CompanyHeader />
     <section>
       <Company />
     </section>
