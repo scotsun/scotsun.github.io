@@ -1,5 +1,6 @@
 ---
 import { siteConfig } from "../config";
+import orgChart from "../../res/org-chart.png";
 ---
 
 <section id="people" class="p-8 sm:p-12 md:p-16 lg:p-24">
@@ -19,6 +20,7 @@ import { siteConfig } from "../config";
       </div>
 
       <div class="lg:col-span-8 space-y-8">
+        <img src={orgChart.src} alt="Organization Chart" class="w-full rounded-lg border border-gray-200 mb-8" />
         {
           siteConfig.companyPeople?.length ? (
             <div class="space-y-6">
