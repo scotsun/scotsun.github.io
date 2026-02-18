@@ -1,5 +1,7 @@
 ---
 import { siteConfig } from "../config";
+
+const isCompanyPage = Astro.url.pathname === "/company";
 ---
 
 <header
@@ -8,28 +10,52 @@ import { siteConfig } from "../config";
 >
   <nav class="max-w-7xl mx-auto px-8 py-4">
     <ul class="flex items-center gap-8 justify-center">
+      {
+        isCompanyPage ? (
+          <>
+            <li>
+              <a
+                href="#aboutus"
+                class="text-gray-700 hover:text-black transition-colors font-medium"
+              >
+                About Us
+              </a>
+            </li>
+            <li>
+              <a
+                href="#services"
+                class="text-gray-700 hover:text-black transition-colors font-medium"
+              >
+                Services
+              </a>
+            </li>
+            <li>
+              <a
+                href="#people"
+                class="text-gray-700 hover:text-black transition-colors font-medium"
+              >
+                People
+              </a>
+            </li>
+          </>
+        ) : (
+          <li>
+            <a
+              href="/company"
+              class="text-gray-700 hover:text-black transition-colors font-medium"
+            >
+              Company
+            </a>
+          </li>
+        )
+      }
+
       <li>
         <a
-          href="#aboutus"
+          href="/careers"
           class="text-gray-700 hover:text-black transition-colors font-medium"
         >
-          About Us
-        </a>
-      </li>
-      <li>
-        <a
-          href="#services"
-          class="text-gray-700 hover:text-black transition-colors font-medium"
-        >
-          Services
-        </a>
-      </li>
-      <li>
-        <a
-          href="#people"
-          class="text-gray-700 hover:text-black transition-colors font-medium"
-        >
-          People
+          Careers
         </a>
       </li>
     </ul>

@@ -5,7 +5,7 @@ export const siteConfig = {
   // #########################
   // company index
   companyName: "AutoHealth",
-  companySlogan: "Empowering Health with AI/ML Solutions",
+  companySlogan: "Empowering health with AI/ML-powered automated solutions",
   companyDescription: "AutoHealth is transforming healthcare with AI-powered✨ solutions and MaaS (Model-as-a-Service) capabilities that improve patient care, streamline clinical workflows, and deliver personalized insights to enhance outcomes for both patients and providers.",
   companyServices: [
     {
@@ -28,17 +28,17 @@ export const siteConfig = {
     {
       name: "Scott Sun",
       title: "Founder & Tech Lead",
-      bio: "Scott Sun is the Tech lead at AutoHealth. His works on building foundation models for Electronic Health Records (EHRs) and event stream data, with a focus on incorporating domain-specific inductive biases to improve efficiency, robustness, and real-world performance. He also works on variational methods and contrastive learning for multimodal and longitudinal representations. In parallel, he builds scalable ML infrastructure and is interested in modern MLOps tools such as Dagster, dbt, and MLflow.",
+      bio: "Scott Sun is the Founder and Tech Lead at AutoHealth. His work focuses on building foundation models for Electronic Health Records (EHRs) and event-stream data, incorporating domain-specific inductive biases to improve efficiency, robustness, and real-world performance. He is interested in variational methods and contrastive learning for multimodal and longitudinal representations. In parallel, he develops scalable machine learning infrastructure and works with modern MLOps tools to support reliable research-to-production deployment.",
     },
     {
       name: "Lorraine Lin",
       title: "Research Scientist",
-      bio: "Lorraine is a Health AI and Biostatistics researcher with interests in statistical machine learning, longitudinal data analysis, and AI for biomedical research. Her current work focuses on clinical outcome prediction using longitudinal cytometry data, combining representation learning with Gaussian Process modeling to improve robustness and interpretability in small-cohort settings. She has also worked on multimodal learning and applied AI projects, including hyperspectral image modeling for smart agriculture, tensor-based methods for infrared target detection, and domain-specific large language model development. Lorraine is passionate about applying data-driven and computational approaches to real-world scientific and healthcare challenges.",
+      bio: "Lorraine Lin is a Research Scientist at AutoHealth specializing in Health AI and biostatistics. Her work centers on statistical machine learning and longitudinal data analysis for clinical outcome prediction, with a focus on combining representation learning and probabilistic modeling to improve robustness and interpretability in small-cohort settings. She has experience in multimodal learning and applied AI across biomedical and scientific domains. Lorraine is passionate about advancing data-driven methods that translate into meaningful healthcare impact.",
     },
     {
       name: "Rishi Kedia",
       title: "MLE",
-      bio: "Rishi Kedia is a Machine Learning Engineer at AutoHealth. His work focuses on computer vision and biomedical imaging, particularly medical image segmentation and clinical ML systems to support pathologists and radiologists. He is interested in building scalable, real-world AI solutions for healthcare.",
+      bio: "Rishi Kedia is a Machine Learning Engineer at AutoHealth. His work focuses on computer vision and biomedical imaging, particularly medical image segmentation and clinical ML systems that support pathologists and radiologists. He is interested in developing scalable, production-ready AI solutions that integrate seamlessly into clinical workflows. Rishi is committed to building reliable and efficient systems that bring machine learning innovations into real-world healthcare environments.",
     },
     {
       name: "Eloise Lee",
@@ -48,7 +48,7 @@ export const siteConfig = {
     {
       name: "Leo Liang",
       title: "Research Scientist",
-      bio: "Leo Liang is a Health AI and Biostatistics researcher. His work focuses on foundation for single-cell/multimodal omics data, with interests in representation learning for longitudinal and multimodal signals, variational methods, and contrastive learning. He also works on causal inference and reproducible ML pipelines, and is interested in scalable infrastructure for research-to-production workflows, including modern MLOps and agentic tooling.",
+      bio: "Leo Liang is a Research Scientist at AutoHealth working at the intersection of Health AI and biostatistics. His research focuses on foundation models for single-cell and multimodal omics data, with interests in representation learning for longitudinal signals, variational methods, and contrastive learning. He also works on causal inference and reproducible ML pipelines, building scalable infrastructure that supports efficient research-to-production workflows.",
     },
   ],
   companySocial: {
