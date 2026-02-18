@@ -1,7 +1,8 @@
 ---
 import { siteConfig } from "../config";
 
-const isCompanyPage = Astro.url.pathname === "/company";
+const currentPath = Astro.url.pathname.replace(/\/$/, "");
+const isCompanyPage = currentPath === "/company";
 ---
 
 <header
@@ -17,7 +18,7 @@ const isCompanyPage = Astro.url.pathname === "/company";
               <summary
                 class="cursor-pointer text-gray-700 hover:text-black transition-colors font-medium"
               >
-                Sections
+                Sections ▾
               </summary>
               <div
                 class="absolute left-1/2 -translate-x-1/2 mt-3 w-48 rounded-lg border border-gray-200 bg-white p-2"
