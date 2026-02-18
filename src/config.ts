@@ -7,6 +7,23 @@ export const siteConfig = {
   companyName: "AutoHealth",
   companySlogan: "Empowering Health with AI/ML Solutions",
   companyDescription: "AutoHealth is transforming healthcare with AI-powered✨ solutions and MaaS (Model-as-a-Service) capabilities that improve patient care, streamline clinical workflows, and deliver personalized insights to enhance outcomes for both patients and providers.",
+  companyServices: [
+    {
+      name: "Medical AI Foundation Models",
+      description:
+        "State-of-the-art foundation MaaS for EHR data and medical imaging to accelerate research and clinical workflows.",
+    },
+    {
+      name: "AI-Driven Clinical Insights",
+      description:
+        "Risk prediction, triage support, and decision assistance designed for transparency and accountability.",
+    },
+    {
+      name: "Healthcare M/SaaS Delivery",
+      description:
+        "Secure, accessible model and data services that integrate with provider operations and scale across systems.",
+    },
+  ],
   companyPeople: [
     {
       name: "Scott Sun",
@@ -35,9 +52,9 @@ export const siteConfig = {
     },
   ],
   companySocial: {
-    email: "your-email@example.com",
+    email: "info@autohealth.com",
     linkedin: "https://www.linkedin.com/in/minghui-scott-sun/",
-    twitter: "https://x.com/rfitzio",
+    twitter: "https://x.com/elonmusk",
     github: "https://github.com/scotsun",
   },
   navLinks: [
