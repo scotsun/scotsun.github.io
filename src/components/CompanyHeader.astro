@@ -12,32 +12,37 @@ const isCompanyPage = Astro.url.pathname === "/company";
     <ul class="flex items-center gap-8 justify-center">
       {
         isCompanyPage ? (
-          <>
-            <li>
-              <a
-                href="#aboutus"
-                class="text-gray-700 hover:text-black transition-colors font-medium"
+          <li class="relative">
+            <details class="group">
+              <summary
+                class="cursor-pointer text-gray-700 hover:text-black transition-colors font-medium"
               >
-                About Us
-              </a>
-            </li>
-            <li>
-              <a
-                href="#services"
-                class="text-gray-700 hover:text-black transition-colors font-medium"
+                Sections
+              </summary>
+              <div
+                class="absolute left-1/2 -translate-x-1/2 mt-3 w-48 rounded-lg border border-gray-200 bg-white p-2"
               >
-                Services
-              </a>
-            </li>
-            <li>
-              <a
-                href="#people"
-                class="text-gray-700 hover:text-black transition-colors font-medium"
-              >
-                People
-              </a>
-            </li>
-          </>
+                <a
+                  href="#aboutus"
+                  class="block rounded-md px-3 py-2 text-sm text-gray-700 hover:text-black transition-colors"
+                >
+                  About Us
+                </a>
+                <a
+                  href="#services"
+                  class="block rounded-md px-3 py-2 text-sm text-gray-700 hover:text-black transition-colors"
+                >
+                  Services
+                </a>
+                <a
+                  href="#people"
+                  class="block rounded-md px-3 py-2 text-sm text-gray-700 hover:text-black transition-colors"
+                >
+                  People
+                </a>
+              </div>
+            </details>
+          </li>
         ) : (
           <li>
             <a
@@ -76,5 +81,13 @@ const isCompanyPage = Astro.url.pathname === "/company";
 <style>
   html {
     scroll-behavior: smooth;
+  }
+
+  summary {
+    list-style: none;
+  }
+
+  summary::-webkit-details-marker {
+    display: none;
   }
 </style>
