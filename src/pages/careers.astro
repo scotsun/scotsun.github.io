@@ -59,6 +59,14 @@ import "../styles/global.css";
                   <dt class="font-semibold text-gray-900">Department:</dt>
                   <dd>Tech Department - AI &amp; MLOps</dd>
                 </div>
+                <div class="flex gap-2 sm:col-span-2">
+                  <dt class="font-semibold text-gray-900">Compensation:</dt>
+                  <dd>$100k–$120k</dd>
+                </div>
+                <div class="flex gap-2 sm:col-span-2">
+                  <dt class="font-semibold text-gray-900">Benefits:</dt>
+                  <dd>Medical coverage, 401(k)</dd>
+                </div>
               </dl>
             </div>
           </header>
@@ -157,7 +165,7 @@ import "../styles/global.css";
             <p class="text-sm font-semibold text-gray-500">Job Posting</p>
             <div class="space-y-2">
               <h2 class="text-2xl sm:text-3xl font-bold text-gray-900">
-                Biostatistician II
+                MLOps Engineer
               </h2>
               <dl class="grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-2 text-gray-600">
                 <div class="flex gap-2">
@@ -170,7 +178,15 @@ import "../styles/global.css";
                 </div>
                 <div class="flex gap-2 sm:col-span-2">
                   <dt class="font-semibold text-gray-900">Department:</dt>
-                  <dd>Tech Department - AI &amp; MLOps</dd>
+                  <dd>Tech Department – AI &amp; MLOps</dd>
+                </div>
+                <div class="flex gap-2 sm:col-span-2">
+                  <dt class="font-semibold text-gray-900">Compensation:</dt>
+                  <dd>$130k–$150k</dd>
+                </div>
+                <div class="flex gap-2 sm:col-span-2">
+                  <dt class="font-semibold text-gray-900">Benefits:</dt>
+                  <dd>Medical coverage, 401(k)</dd>
                 </div>
               </dl>
             </div>
@@ -185,33 +201,46 @@ import "../styles/global.css";
 
           <section class="space-y-3">
             <h3 class="text-xl sm:text-2xl font-bold text-gray-900">About the Role</h3>
-            <p class="text-base sm:text-lg md:text-xl leading-relaxed text-gray-600">
-              We are seeking a Biostatistician II to serve as a critical bridge between our AI/MLOps teams and our Policy &amp; Ethics department. In this role, you won't just be "cleaning data"—you will be the architect of the statistical frameworks that ensure our clinical AI is safe, unbiased, and ready for real-world deployment. You will evaluate high-stakes models, from medical coding copilots to risk-prediction systems, ensuring every insight we generate is robust and clinically actionable.
-            </p>
+            <div class="space-y-3">
+              <p class="text-base sm:text-lg md:text-xl leading-relaxed text-gray-600">
+                We are seeking an MLOps Engineer to build and scale the infrastructure that powers AutoHealth’s clinical AI systems. In this role, you will operationalize cutting-edge foundation models and predictive systems—from EHR-based risk prediction to medical imaging AI—ensuring they are reliable, reproducible, and production-ready.
+              </p>
+              <p class="text-base sm:text-lg md:text-xl leading-relaxed text-gray-600">
+                You won’t just “deploy models.” You will design the end-to-end machine learning lifecycle: from data ingestion and model training pipelines to monitoring, governance, and continuous validation. Your work ensures that our AI systems are not only performant but safe, auditable, and aligned with healthcare regulations.
+              </p>
+            </div>
           </section>
 
           <section class="space-y-3">
             <h3 class="text-xl sm:text-2xl font-bold text-gray-900">Key Responsibilities</h3>
             <ul class="list-disc pl-5 text-base sm:text-lg md:text-xl leading-relaxed text-gray-600 space-y-2">
               <li>
-                <span class="font-semibold text-gray-900">Model Validation &amp; Safety:</span>
-                Design and execute statistical protocols to evaluate the clinical validity and safety of AI systems built on EHR and medical imaging data.
+                <span class="font-semibold text-gray-900">ML Infrastructure &amp; Automation:</span>
+                Design, implement, and maintain scalable ML pipelines for training, validation, deployment, and continuous integration/continuous delivery (CI/CD).
               </li>
               <li>
-                <span class="font-semibold text-gray-900">Bias &amp; Fairness Assessment:</span>
-                Collaborate with the Policy &amp; Ethics team to develop quantitative frameworks for assessing bias across diverse patient populations.
+                <span class="font-semibold text-gray-900">Model Deployment &amp; Monitoring:</span>
+                Deploy AI models into clinical and M/SaaS environments with robust monitoring for performance drift, bias drift, and system reliability.
               </li>
               <li>
-                <span class="font-semibold text-gray-900">Causal Inference:</span>
-                Apply advanced causal inference methodologies to interpret complex medical data and support downstream clinical decision-making.
+                <span class="font-semibold text-gray-900">Data Engineering for Clinical AI:</span>
+                Build secure, compliant data pipelines for structured EHR data, imaging data, and multimodal medical datasets.
+              </li>
+              <li>
+                <span class="font-semibold text-gray-900">Reproducibility &amp; Governance:</span>
+                Implement version control for data, models, and experiments to ensure full traceability and regulatory readiness.
+              </li>
+              <li>
+                <span class="font-semibold text-gray-900">Scalability &amp; Performance Optimization:</span>
+                Optimize distributed training and inference workflows across cloud and on-premise infrastructure.
+              </li>
+              <li>
+                <span class="font-semibold text-gray-900">Security &amp; Compliance:</span>
+                Ensure infrastructure meets healthcare data security standards (e.g., HIPAA compliance) and supports auditability for external healthcare partners.
               </li>
               <li>
                 <span class="font-semibold text-gray-900">Interdisciplinary Collaboration:</span>
-                Work daily with ML Researchers, Clinicians, and Policy Experts to translate "black box" metrics into transparent, interpretable risk-prediction frameworks.
-              </li>
-              <li>
-                <span class="font-semibold text-gray-900">Regulatory Alignment:</span>
-                Ensure all statistical evaluations meet rigorous standards for transparency and ethical deployment, supporting our consulting services for external healthcare partners.
+                Work closely with ML Researchers, Biostatisticians, Clinicians, and Policy teams to translate research prototypes into stable, production-grade systems.
               </li>
             </ul>
           </section>
@@ -220,28 +249,40 @@ import "../styles/global.css";
             <h3 class="text-xl sm:text-2xl font-bold text-gray-900">Who You Are</h3>
             <ul class="list-disc pl-5 text-base sm:text-lg md:text-xl leading-relaxed text-gray-600 space-y-2">
               <li>
-                <span class="font-semibold text-gray-900">Scientifically Rigorous:</span>
-                Advanced degree (MS or PhD) in Biostatistics, Statistics, or a related quantitative field.
+                <span class="font-semibold text-gray-900">Technically Strong:</span>
+                Master’s or PhD in Computer Science, Engineering, or a related field.
               </li>
               <li>
-                <span class="font-semibold text-gray-900">Data Fluent:</span>
-                Deep expertise in real-world data (RWD) analysis, particularly with structured EHR data and/or medical imaging.
+                <span class="font-semibold text-gray-900">MLOps Expert:</span>
+                Experience building ML systems using tools such as Docker, Kubernetes, MLflow, Airflow, or similar orchestration and experiment-tracking frameworks.
               </li>
               <li>
-                <span class="font-semibold text-gray-900">Programming:</span>
-                Proficiency in R, SAS, and/or Python.
+                <span class="font-semibold text-gray-900">Cloud &amp; DevOps Savvy:</span>
+                Proficiency with AWS, GCP, or Azure; strong understanding of CI/CD and infrastructure-as-code principles.
+              </li>
+              <li>
+                <span class="font-semibold text-gray-900">Healthcare-Aware:</span>
+                Experience working with EHR, medical imaging, or other healthcare datasets is highly desirable.
+              </li>
+              <li>
+                <span class="font-semibold text-gray-900">Programming Proficiency:</span>
+                Strong skills in Python and familiarity with modern ML frameworks (e.g., PyTorch, TensorFlow).
+              </li>
+              <li>
+                <span class="font-semibold text-gray-900">Reliability-Focused:</span>
+                You prioritize system robustness, monitoring, and fail-safe mechanisms in high-stakes environments.
               </li>
               <li>
                 <span class="font-semibold text-gray-900">Mission-Driven:</span>
-                You believe that "patient-first" and "fairness-first" are not just slogans, but requirements for modern medical technology.
+                You believe that operational excellence is essential to delivering safe and fair AI in healthcare.
               </li>
               <li>
                 <span class="font-semibold text-gray-900">Communicator:</span>
-                Ability to communicate complex statistical concepts to different roles, such as ML engineers and clinicians.
+                You can bridge the gap between research innovation and production engineering.
               </li>
               <li>
                 <span class="font-semibold text-gray-900">Adaptable:</span>
-                You are comfortable working in a fast-paced, hybrid Earth–Mars environment.
+                You thrive in a fast-paced, hybrid Earth–Mars environment.
               </li>
             </ul>
           </section>
@@ -259,7 +300,7 @@ import "../styles/global.css";
               </li>
               <li>
                 <span class="font-semibold text-gray-900">Transparency:</span>
-                You believe models should be interpretable and accountable.
+                You believe AI systems should be interpretable, accountable, and reproducible.
               </li>
             </ul>
           </section>
