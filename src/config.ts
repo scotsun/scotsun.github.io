@@ -27,12 +27,12 @@ export const siteConfig = {
   companyPeople: [
     {
       name: "Scott Sun",
-      title: "Founder",
+      title: "Founder & Tech Lead",
       bio: "Building patient-first, fair, and transparent AI for healthcare.",
     },
     {
       name: "Lorraine Lin",
-      title: "TBD",
+      title: "Research Scientist",
       bio: "[placeholder]",
     },
     {
