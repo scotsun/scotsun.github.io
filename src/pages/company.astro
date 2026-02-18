@@ -1,8 +1,9 @@
 ---
-import CompanyAboutUs from "../components/CompanyAboutUs.astro";
-import CompanyFooter from "../components/CompanyFooter.astro";
-import CompanyHeader from "../components/CompanyHeader.astro";
-import CompanyHero from "../components/CompanyHero.astro";
+import CompanyAboutUs from "../components/company/CompanyAboutUs.astro";
+import CompanyPeople from "../components/company/CompanyPeople.astro";
+import CompanyFooter from "../components/company/CompanyFooter.astro";
+import CompanyHeader from "../components/company/CompanyHeader.astro";
+import CompanyHero from "../components/company/CompanyHero.astro";
 import { siteConfig } from "../config";
 import "../styles/global.css";
 ---
@@ -27,6 +28,9 @@ import "../styles/global.css";
     <CompanyHero />
     <section>
       <CompanyAboutUs />
+    </section>
+    <section>
+      <CompanyPeople />
     </section>
     <CompanyFooter />
   </body>

@@ -5,8 +5,15 @@ export const siteConfig = {
   // #########################
   // company index
   companyName: "AutoHealth",
-  companySlogan: "Empowering Health with AI",
+  companySlogan: "Empowering Health with AI/ML Solutions",
   companyDescription: "AutoHealth is transforming healthcare with AI-powered✨ solutions and MaaS (Model-as-a-Service) capabilities that improve patient care, streamline clinical workflows, and deliver personalized insights to enhance outcomes for both patients and providers.",
+  companyPeople: [
+    {
+      name: "Scott Sun",
+      title: "Founder",
+      bio: "Building patient-first, fair, and transparent AI for healthcare.",
+    },
+  ],
   companySocial: {
     email: "your-email@example.com",
     linkedin: "https://www.linkedin.com/in/minghui-scott-sun/",
