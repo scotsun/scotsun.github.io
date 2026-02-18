@@ -5,6 +5,7 @@ export const siteConfig = {
   // #########################
   // company index
   companyName: "AutoHealth",
+  companySlogan: "Empowering Health with AI",
   companyDescription: "This is a placeholder for the company description.",
   navLinks: [
     { name: "About", href: "#about" },
