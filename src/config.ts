@@ -7,6 +7,12 @@ export const siteConfig = {
   companyName: "AutoHealth",
   companySlogan: "Empowering Health with AI",
   companyDescription: "This is a placeholder for the company description.",
+  companySocial: {
+    email: "your-email@example.com",
+    linkedin: "https://linkedin.com/in/yourprofile",
+    twitter: "https://x.com/rfitzio",
+    github: "https://github.com/scotsun",
+  },
   navLinks: [
     { name: "About", href: "#about" },
     { name: "Experience", href: "#experience" },
@@ -15,10 +21,11 @@ export const siteConfig = {
     { name: "Company", href: "/company" },
   ],
   // #########################
+
   accentColor: "#1d4ed8",
   social: {
     email: "your-email@example.com",
-    linkedin: "https://linkedin.com/in/yourprofile",
+    linkedin: "https://www.linkedin.com/in/minghui-scott-sun/",
     twitter: "https://x.com/rfitzio",
     github: "https://github.com/scotsun",
   },
