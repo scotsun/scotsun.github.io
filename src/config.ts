@@ -13,6 +13,26 @@ export const siteConfig = {
       title: "Founder",
       bio: "Building patient-first, fair, and transparent AI for healthcare.",
     },
+    {
+      name: "Lorraine Lin",
+      title: "TBD",
+      bio: "[placeholder]",
+    },
+    {
+      name: "Rishi Kedia",
+      title: "MLE",
+      bio: "[placeholder]",
+    },
+    {
+      name: "Eloise Lee",
+      title: "Biostatistician III",
+      bio: "[placeholder]",
+    },
+    {
+      name: "Leo Liang",
+      title: "Research Scientist",
+      bio: "[placeholder]",
+    },
   ],
   companySocial: {
     email: "your-email@example.com",
