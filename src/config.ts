@@ -54,7 +54,7 @@ export const siteConfig = {
   companySocial: {
     email: "info@autohealth.com",
     linkedin: "https://www.linkedin.com/in/minghui-scott-sun/",
-    twitter: "https://x.com/elonmusk",
+    twitter: "https://x.com",
     github: "https://github.com/scotsun",
   },
   navLinks: [
@@ -70,7 +70,7 @@ export const siteConfig = {
   social: {
     email: "your-email@example.com",
     linkedin: "https://www.linkedin.com/in/minghui-scott-sun/",
-    twitter: "https://x.com/rfitzio",
+    twitter: "https://x.com",
     github: "https://github.com/scotsun",
   },
   aboutMe:
